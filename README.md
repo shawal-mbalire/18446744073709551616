@@ -1,11 +1,11 @@
 # 18446744073709551616
 
-This zipped file is from a github repository that can be found at [Github Repo](https://github.com/shawal-mbalire/ai_lab_hack)
-For the training, 400 compute units were purchased. I realise that only 300 compute units will be reimbursed. Below at the nd of this readme are the screenshots of order numbers as proof of payment
+This zipped file is from a github repository that can be found at the private repo [Github Repo](https://github.com/shawal-mbalire/ai_lab_hack).
+For the training, 400 compute units were purchased for a total of Ugx 170,792 ($ 43.16). I realise that only 300 compute units Ugx 127,917 ($ 32.37) will be reimbursed. Below at the nd of this readme are the screenshots of order numbers as proof of payment
 
 
 ## Cocoa
-
+The interactive python notebook `yolo8n_300E_256b.ipynb` shows a notebook with experimentation on cocoa dataset. Experimenting was done by tweaking the base model from `yolov5n`,`yolov5m`,`yolov5x`,`yolov5nu`,`yolov5mu`,`yolov5xu`,`yolov8n`,`yolov9c` and tweeking hyperparameters cycling through optimisers `Adam`,`AdamW`,`NAdam`,`RAdam`,`RMSprop` and `SGD`. however for the submission file, tracking the best perming combination has become a bit complex. Training was tried at higher batch size using 4ogb of the A100 GPU, and 22.5GB of L4 GPU with 256 bqtch size and smaller models. A versoin of the notebook can be found at [Cocoa notebook collab link](https://colab.research.google.com/drive/1N3cZLD7_fJvD6oAA6T2-0Melmb4JUg2B?usp=sharing)
 
 
 ## Maize
